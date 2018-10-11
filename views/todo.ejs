@@ -24,7 +24,8 @@
 		<link rel="stylesheet" type="text/css" href="/assets/css/responsive.css">
         <link rel="stylesheet" id="color" href="/assets/css/default.css">
         <link href="https://fonts.googleapis.com/css?family=Poppins:300i,400,500,600,700" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,600,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,600,700" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>
@@ -40,21 +41,32 @@
 			<a href="#" id="mobile-trigger"><i class="fa fa-list" aria-hidden="true"></i></a>
 			<div id ="mob-menu">
 				<ul>
-                    <li class="current-menu-item"><a href="#">Home</a></li>
-                    <li><a href="about.html">Who we are</a> </li>
-					<li class="menu-item-has-children"><a href="#">What we offer</a>
-						<ul class="sub-menu">
-							<li><a href="#">Website Design & Development</a></li>
-							
-							<li><a href="#">Mobile App Design & Development</a></li>
-                            <li><a href="#">E-Commerce Design & Development</a></li>
-                            <li><a href="#">Software Development </a></li>
-                            <li><a href="#">Start-Up Consulting & Nurturing:</a></li>
-                            <li><a href="#">Digital Brand Development</a></li>
-                            <li><a href="#">Executive Coaching & Leadership Program:</a></li>
-						</ul>
-					</li>
-					<li class=""><a href="#">Contact Us</a></li>
+					<li class="current-menu-item"><a href="#">Home</a></li>
+			<li><a href="about.html">Who we are</a> </li>
+			<li class="menu-item-has-children has-mega-menu"><a href="#">What we offer</a>
+				<div class="flat-mega-memu">
+					<ul class="mega-menu-sub">
+						<li><a href="#"><i class="icon-basket"></i> E-Commerce Development</a></li>
+						<li><a href="#"><i class="icon-mobile"></i> Mobile App Development</a></li>
+						<li><a href="#"><i class="icon-desktop"></i> Web Framework Development</a></li>
+						<li><a href="#"><i class="icon-laptop"></i> PHP Frameworks</a></li>
+					</ul>
+					<ul class="mega-menu-sub">
+						<li><a href="#"><i class="icon-attachment"></i> JavaScript Frameworks</a></li>
+						<li><a href="#"><i class="icon-search"></i> QA And Testing</a></li>
+						<li><a href="#"><i class="icon-cloud"></i> Cloud Services</a></li>
+						<li><a href="#"><i class="icon-browser"></i> Dashboarding, Big data & Analytics</a></li>
+					</ul>
+					<ul class="mega-menu-sub">
+						<li><a href="#"><i class="icon-gears"></i> Maintenance & Support</a></li>
+						<li><a href="#"><i class="icon-tools-2"></i> CMS Development</a></li>
+						<li><a href="#"><i class="icon-tools"></i> UI/UX Design</a></li>
+						<li><a href="#"><i class="icon-linegraph"></i> Digital Marketing Services</a></li>
+					</ul>
+
+				</div>
+			</li>
+			<li class=""><a href="#">Contact Us</a></li>
 				</ul>
 			</div> <!-- #mob-menu -->
 			<header id="masthead" class="site-header" >
@@ -96,17 +108,28 @@
 						<ul>
 							<li class="current-menu-item"><a href="#">Home</a></li>
                     <li><a href="about.html">Who we are</a> </li>
-					<li class="menu-item-has-children"><a href="#">What we offer</a>
-						<ul class="sub-menu">
-							<li><a href="#">Website Design & Development</a></li>
-							
-							<li><a href="#">Mobile App Design & Development</a></li>
-                            <li><a href="#">E-Commerce Design & Development</a></li>
-                            <li><a href="#">Software Development </a></li>
-                            <li><a href="#">Start-Up Consulting & Nurturing:</a></li>
-                            <li><a href="#">Digital Brand Development</a></li>
-                            <li><a href="#">Executive Coaching & Leadership Program:</a></li>
-						</ul>
+					<li class="menu-item-has-children has-mega-menu"><a href="#">What we offer</a>
+						<div class="flat-mega-memu">
+							<ul class="mega-menu-sub">
+								<li><a href="#"><i class="icon-basket"></i> E-Commerce Development</a></li>
+								<li><a href="#"><i class="icon-mobile"></i> Mobile App Development</a></li>
+								<li><a href="#"><i class="icon-desktop"></i> Web Framework Development</a></li>
+								<li><a href="#"><i class="icon-laptop"></i> PHP Frameworks</a></li>
+							</ul>
+							<ul class="mega-menu-sub">
+								<li><a href="#"><i class="icon-attachment"></i> JavaScript Frameworks</a></li>
+								<li><a href="#"><i class="icon-search"></i> QA And Testing</a></li>
+								<li><a href="#"><i class="icon-cloud"></i> Cloud Services</a></li>
+								<li><a href="#"><i class="icon-browser"></i> Dashboarding, Big data & Analytics</a></li>
+							</ul>
+							<ul class="mega-menu-sub">
+								<li><a href="#"><i class="icon-gears"></i> Maintenance & Support</a></li>
+								<li><a href="#"><i class="icon-tools-2"></i> CMS Development</a></li>
+								<li><a href="#"><i class="icon-tools"></i> UI/UX Design</a></li>
+								<li><a href="#"><i class="icon-linegraph"></i> Digital Marketing Services</a></li>
+							</ul>
+
+						</div>
 					</li>
 					<li class=""><a href="#">Contact Us</a></li>
 						</ul>
@@ -874,7 +897,7 @@
 													<p>Mnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam eaque ipsa quae ab illo inventore veritatis.</p>
 													<div id="contact-form" class="contact-form">
 														<div id="message"></div>
-														<form id="contactform" action="http://anilbasnet.com/demo/biz-lina/contact.php" name="contactform" method="post">
+														<form id="contactform" action="/form" name="contactform" method="post">
 															<input type="text" name="name" id="name" class="form-control" placeholder="Name *">
 															<input type="text" name="email" id="email" class="form-control" placeholder="Email *">
 															<textarea class="form-control" name="comments" id="comments" rows="6" placeholder=""></textarea>

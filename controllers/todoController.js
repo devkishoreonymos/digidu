@@ -7,7 +7,8 @@ module.exports = (app)=>{
     });
 
 
-    app.post('/',(req,res)=>{
+    app.post('/form',(req,res)=>{
+        console.log(req.route.path);
 
     });
 
