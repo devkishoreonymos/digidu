@@ -1,21 +1,21 @@
 module.exports = (app)=>{
 
-    app.get('/todo',(req,res)=>{
+    app.get('/',(req,res)=>{
         
         res.render('todo');
         console.log(req.route.path);
     });
 
 
-    app.post('/todo',(req,res)=>{
+    app.post('/',(req,res)=>{
 
     });
 
-    app.put('/todo',(req,res)=>{
+    app.put('/',(req,res)=>{
 
     });
 
-    app.delete('/todo',(req,res)=>{
+    app.delete('/',(req,res)=>{
 
     });
 }
